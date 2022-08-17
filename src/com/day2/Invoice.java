@@ -13,13 +13,13 @@ public class Invoice {
 	
 	
 	
-	String invoice_number="";
-	String item_number="";
-	double price;
-	int qty;
-	double discount;
-	double total_amount;
-	String comments;
+	private String invoice_number="";
+	private String item_number="";
+	private double price;
+	private int qty;
+	private double discount;
+	private double total_amount;
+	private String comments;
 	
 	public String getInvoice_number() {
 		return invoice_number;
